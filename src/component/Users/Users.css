@@ -1,0 +1,23 @@
+.Users {
+    width: 250px;
+    padding: 16px;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+    display: flexbox;
+}
+
+.Users button[type = "submit"]{
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(30, 235, 99);
+    padding: 14px 40px;
+    outline: none;
+    color: whitesmoke;
+    border-radius: 24px;
+    transition: ease-in;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
